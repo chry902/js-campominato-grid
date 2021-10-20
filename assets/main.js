@@ -1,11 +1,20 @@
 //crea un input per selezionare la difficolta 
-let livello = prompt(`selziona la difficoltà `);
+//let livello = prompt(`selziona la difficoltà `);
 
-const livello = document.getElementById(`livello`);
-const esegui = document.getElementById(`esegui`);
-esegui.addEventListener(`click`, function){
+let livello = document.getElementById(`livello`);
+let esegui = document.getElementById(`esegui`);
 
-}
+
+
+esegui.addEventListener(`click`, function () {
+
+
+
+
+})
+
+
+
 generaGriglia(livello)
 
 //genera una griglia con un ciclo
