@@ -1,11 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    pad: 0;
+}
+
+
 .container{
     background-color: rgb(29, 34, 53);
-    
+    width:1000px;
     min-width: 1000px;
     min-height: 1000px;
-    margin: 5rem auto;
+    margin: 5rem ;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
+    align-items: center;
+    
+    margin: auto
 }
 .grid_cell{
     width: 100px;
