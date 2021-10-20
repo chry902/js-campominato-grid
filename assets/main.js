@@ -12,8 +12,8 @@ for (let i = 0; i < 100; i++) {
     //crea un elemento DOM da menttere nella grilia (cella)
     let divEl = document.createElement(`div`);
 
-    let element = `<divEL class= "grid_cell grid_cell--${i}"> ${i}</divEL>`;
-    section.insertAdjacentHTML("beforeend", element);
+    //let element = `<divEL class= "grid_cell grid_cell--${i}"> ${i}</divEL>`;
+    //section.insertAdjacentHTML("beforeend", element);
 
     //aggiungi una classe all'elemento appena creato
     divEl.className = `grid_cell`;
